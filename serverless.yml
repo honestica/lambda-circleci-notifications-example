@@ -1,0 +1,18 @@
+service: lambda-circleci-notifications
+
+provider:
+  name: aws
+  runtime: ruby2.5
+  stage: dev
+  region: eu-west-1
+  environment:
+    SLACK_TOKEN: ${ssm:circleci-notifications-slack-token}
+    SENTRY_DSN: ${ssm:circleci-notifications-sentry-dsn}
+
+functions:
+  circleci-notifications:
+    handler: circleci-notifications.handler
+    events:
+      - http:
+          path: notify_slack
+          method: POST

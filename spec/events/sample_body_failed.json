@@ -1,0 +1,90 @@
+{
+  "payload": {
+    "compare": "https://github.com/lifen/pimp-my-hospital/compare/c6429ef41c74...304a98af6f5a",
+    "previous_successful_build": {
+      "build_num": 7,
+      "status": "success",
+      "build_time_millis": 48681
+    },
+    "build_parameters": {
+      "CIRCLE_JOB": "test"
+    },
+    "oss": false,
+    "all_commit_details_truncated": false,
+    "committer_date": "2018-05-29T11:28:46+02:00",
+    "body": "",
+    "usage_queued_at": "2018-05-29T09:28:52.884Z",
+    "context_ids": [],
+    "fail_reason": null,
+    "retry_of": null,
+    "reponame": "pimp-my-hospital",
+    "ssh_users": [],
+    "build_url": "https://circleci.com/gh/lifen/pimp-my-hospital/8",
+    "parallel": 1,
+    "failed": true,
+    "branch": "serverless-framework",
+    "username": "lifen",
+    "author_date": "2018-05-29T11:28:46+02:00",
+    "why": "github",
+    "user": {
+      "is_user": true,
+      "login": "EtienneDepaulis",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/639743?v=4",
+      "name": "Etienne Depaulis",
+      "vcs_type": "github",
+      "id": 639743
+    },
+    "vcs_revision": "304a98af6f5a87615b67130b9a501691f5fce448",
+    "owners": [
+      "EtienneDepaulis"
+    ],
+    "vcs_tag": null,
+    "build_num": 8,
+    "infrastructure_fail": false,
+    "has_artifacts": true,
+    "previous": {
+      "build_num": 7,
+      "status": "success",
+      "build_time_millis": 48681
+    },
+    "status": "failed",
+    "committer_name": "Etienne Depaulis",
+    "retries": null,
+    "subject": "Making the CI fail",
+    "vcs_type": "github",
+    "timedout": false,
+    "dont_build": null,
+    "lifecycle": "finished",
+    "no_dependency_cache": false,
+    "stop_time": "2018-05-29T09:29:32.263Z",
+    "ssh_disabled": true,
+    "build_time_millis": 36437,
+    "picard": {
+      "build_agent": {
+        "image": null,
+        "properties": {
+          "executor": "docker",
+          "build_agent": "0.0.5706-58f0e71"
+        }
+      },
+      "resource_class": {
+        "cpu": 2,
+        "ram": 4096,
+        "class": "medium"
+      },
+      "executor": "docker"
+    },
+    "messages": [],
+    "is_first_green_build": false,
+    "job_name": null,
+    "start_time": "2018-05-29T09:28:55.826Z",
+    "canceler": null,
+    "platform": "2.0",
+    "outcome": "failed",
+    "vcs_url": "https://github.com/lifen/pimp-my-hospital",
+    "author_name": "Etienne Depaulis",
+    "node": null,
+    "queued_at": "2018-05-29T09:28:52.902Z",
+    "canceled": false
+  }
+}
